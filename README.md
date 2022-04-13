@@ -1,5 +1,12 @@
 # Project1
-This is a Scala console application able to retrieve data using Hive. It uses 4 locally stored game databases to generate 6 user queries.
-The user can choose from a menu to view the tables, and insert or delete data.
-The 6 queries are menu driven, and mapped to respective numbers.
-The tables are partitioned according to game genres.
+This project is about performing 6 Hive queries from a database related to some popular mobile and PC games. The Entire program is menu-driven based on user inputs. 
+As a special feature, I have added the provision to add or delete records using overwrite method. 
+## Technologies Used
+- HDFS & YARN
+- Hive
+- Scala 2.12.10
+## Input Files
+- mobile_games.txt
+- pc_games.txt
+- mobile_games_sold.txt
+- pc_games_sold.txt
